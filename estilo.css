@@ -79,45 +79,20 @@ form input[type=submit]:hover {
     border:none;
     cursor:pointer;
 }
-.navlink { 
-    color:aliceblue;
-    font-weight: bold;
-    background-color: rgba(21, 16, 16, 0.647);
-    width: 90%;
-    height: 10%;
-    padding-top: 5px;
-    top: 5px;
-    left: 15px;   
-    position:absolute;
-    display: flex;
-    align-items: justify;
-    justify-content: center;
-}
-
-a:link {
+form input[type=reset] {
+    background: black;
     color:white;
-    text-decoration: none;
-    font-weight: bold ;
-    margin-left: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+
 }
 
-a:hover {
-    color:deeppink;
-    text-decoration: none;
-    font-weight: bold ;
-    margin-left: 5px;
-}
-
-a:visited {
+form input[type=reset]:hover {
+    background: rgb(43, 242, 8);
     color:white;
-    text-decoration: none;
-    font-weight: bold ;
-    margin-left: 5px;
-}
-
-a:active {
-    color:rgb(80, 74, 74);
-    text-decoration: none;
-    font-weight: bold ;
-    margin-left: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
 }

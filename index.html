@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MG Sports - Loja Online</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>MG Sports - Loja Online </title>
 </head>
 <body>
-
     <section>
-        <div class="boxlogin">
-            <form class="formbox" action="conecta.php" method="post">
-                <h2> MG Sports </h2> 
-            <label> Usuário: </label>
-            <input type="text" id="usr" name="nomeusr"> <br>
-            <label> Senha </label>
-            <input type="password" id="sen" name="senhausr"> <br>
-            <input type="submit" value="Acessar" name="acs">
-            <input type="reset"  value="Cancelar" name="rst">
-            </form>
-        
-        
+        <div class="boxlogin"> 
+            
+                <form class="formbox" action="conecta.php" method="post">
+                <h2>MG Sports </h2>
+           
+             <label> Usuário: </label>  <input  type="text" id="usr" name="nomeusr"> <br>
+                
+             <label> Senha: </label> <input type="password" id="sen" name="senhausr"> <br>
+                    <input type="submit" name="env" id="en" value="Acessar">
+                    <input type="reset" name="rst" id="en" value="Cancelat">
+            
+            </section>
+    
+    
+        </form>
         </div>
-</section>
+    
+
     
 </body>
 </html>
